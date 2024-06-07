@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 apt install apache2 php libapache2-mod-php -y
 cp upload.php /var/www/html/upload.php
@@ -27,8 +27,6 @@ sleep 5
 
 FILE_NAME=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 12)
 
-touch test
-echo "dKYYNuEvAFAe8IDuUJNYS8zTBsu3cePv" > $FILE_NAME
+echo "dKYYNuEvAFAe8IDuUJNYS8zTBsu3cePv" > "/.inhere/$FILE_NAME"
 
 echo "200 files created with random names and contents."
-
