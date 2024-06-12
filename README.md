@@ -77,7 +77,7 @@ http://{server_ip_address}/upload.php
 Replace {server_ip_address} with the IP address of the vulnerable machine. In the case that you are doing this challenge in the Tech Lab, the ip_address you will use is:
 
 ```
-10.13.37.xxx (CHANGE THE IP LATER MARCO)
+10.13.37.243
 ```
 
 On this website, press the upload button, and select the previously created reverse_shell_{unique_identifier}.php file. Click the button at the end to commit the file to be uploaded.
